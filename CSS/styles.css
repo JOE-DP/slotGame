@@ -36,7 +36,10 @@ input{
     /* border: 1px solid black; */
     height: 20vh;
     margin-top: 4%;
+    
 }
+
+
 span{
     font-size: 2rem;
     
@@ -55,6 +58,7 @@ span{
     border: 2px solid yellow;
     margin-left: 0.5%;
 }
+
 p{
     font-size: 4rem;
     font-family: 'Oleo Script Swash Caps', cursive;
@@ -97,4 +101,29 @@ p{
     margin-top: 50%;
     font-size: 7rem;
     font-family: 'Smokum', cursive;
+}
+
+}
+@media (max-width: 700px){
+    .player-info{
+      
+        height: 10vh;
+    }
+    .player-space{
+        height: 7vh;
+    }
+    .reels{
+        height: 15vh;
+        margin-top: 2rem;
+    }
+    .reel{
+        height: 15vh;
+    }
+    .action{
+        height: 6rem;
+    }
+    .input{
+        margin: 0;
+        display: block;
+    }
 }

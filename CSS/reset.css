@@ -26,3 +26,8 @@ time, mark, audio, video {
 html {
     font-size: 62.5%;
 }
+@media (max-width: 700px){
+html{
+	font-size: 25%;
+}
+}
