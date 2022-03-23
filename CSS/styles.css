@@ -1,0 +1,100 @@
+.slotMachine{
+    width: 60%;
+    background-color: lightblue;
+    border: 2px solid yellow;
+    border-radius: 20%;
+    height: 95vh;
+    margin: auto;
+    padding-top: 1vh;
+}
+header{
+    overflow: auto;
+    
+}
+h1, span{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 4rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: yellow;
+}
+h1{
+    font-size: 6rem;
+    text-align: left;
+    margin-left: 15%;
+    float: left;
+}
+input{
+    float: left;
+    border: 2px solid yellow;
+    margin: 10% 0 0 20%;
+    
+}
+    /* player information */
+
+.player-info{
+    /* border: 1px solid black; */
+    height: 20vh;
+    margin-top: 4%;
+}
+span{
+    font-size: 2rem;
+    
+}
+.spins, .tokens{
+ float: left;
+ width: 10%;
+ margin-left: 2%;
+}
+
+.player-space{
+    background-color: white;
+    width: 20%;
+    height: 20vh;
+    float: left;
+    border: 2px solid yellow;
+    margin-left: 0.5%;
+}
+p{
+    font-size: 4rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: lightblue;
+    text-align: center;
+    margin-top: 20%;
+}
+   
+.action{
+    border-radius: 100%;
+    width: 15%;
+    height: 12rem;
+    margin-left: 6%;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: yellow;
+    border: 2px solid yellow;
+    background-color: lightblue;
+    font-size: 2rem;
+}
+
+/* reels */
+
+.reels{
+    height: 38vh;
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.reel{
+    border: 2px solid black;
+    margin: 0 6%;
+    height: 35vh;
+    float: left;
+    width: 20%;
+    background-color: white;
+    border: 2px solid yellow;
+}
+.reel-content{
+    margin-top: 50%;
+    font-size: 7rem;
+    font-family: 'Smokum', cursive;
+}
