@@ -102,14 +102,17 @@ p{
     font-size: 7rem;
     font-family: 'Smokum', cursive;
 }
-
-
-@media (max-width: 700px){
+@media only screen and  (orientation: portrait) and (max-width: 700px){
     .slotMachine{
         width: 95%;
     }
+}
+
+
+@media (max-width: 700px){
+   
     .player-info{
-      
+    
         height: 10vh;
     }
     .player-space{
