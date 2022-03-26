@@ -103,8 +103,11 @@ p{
     font-family: 'Smokum', cursive;
 }
 
-}
+
 @media (max-width: 700px){
+    .slotMachine{
+        width: 95%;
+    }
     .player-info{
       
         height: 10vh;

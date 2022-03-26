@@ -38,15 +38,17 @@ document.querySelector('.reel2').innerText = reel2;
 document.querySelector('.reel3').innerText = reel3;
 
 if(reel1 == "10" && reel2 == "10" && reel3 == "10"){
-total += bet * 2;
+total += bet * 4;
 } else if(reel1 == "J" && reel2 == "J" && reel3 == "J"){
-    total += bet * 4;
-} else if(reel1 == "Q" && reel2 == "Q" && reel3 == "Q"){
-    total += bet * 6;
-} else if(reel1 == "K" && reel2 == "K" && reel3 == "K"){
     total += bet * 8;
+} else if(reel1 == "Q" && reel2 == "Q" && reel3 == "Q"){
+    total += bet * 12;
+} else if(reel1 == "K" && reel2 == "K" && reel3 == "K"){
+    total += bet * 16;
 } else if(reel1 == "A" && reel2 == "A" && reel3 == "A"){
-    total += bet * 10;
+    total += bet * 20;
+} else if(reel1 == reel2 || reel1 == reel3 || reel2 ==  reel3){
+    total += bet * 1
 }
 
 document.querySelector('.player-money').innerText = total;
