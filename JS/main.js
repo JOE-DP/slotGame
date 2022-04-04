@@ -24,7 +24,7 @@ let bet = document.querySelector('input').value;
 if(bet > total){
     return alert("Not enough funds")
 } else if (total > 999){
-    alert(`You have won! you have ${total} tokans and took ${spins} spins! Well done!`)
+    alert(`You have won! you have ${total} tokens and took ${spins} spins! Well done!`)
 }
 total -= bet;
 spins ++

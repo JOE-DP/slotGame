@@ -1,6 +1,6 @@
 .slotMachine{
     width: 60%;
-    background-color: lightblue;
+    background-color: rgb(136, 198, 219);
     border: 2px solid yellow;
     border-radius: 20%;
     height: 95vh;
@@ -62,7 +62,7 @@ span{
 p{
     font-size: 4rem;
     font-family: 'Oleo Script Swash Caps', cursive;
-    color: lightblue;
+    color: rgb(136, 198, 219);
     text-align: center;
     margin-top: 20%;
 }
@@ -75,7 +75,7 @@ p{
     font-family: 'Oleo Script Swash Caps', cursive;
     color: yellow;
     border: 2px solid yellow;
-    background-color: lightblue;
+    background-color: rgb(136, 198, 219);
     font-size: 2rem;
 }
 
@@ -103,30 +103,34 @@ p{
     font-family: 'Smokum', cursive;
 }
 @media only screen and  (orientation: portrait) and (max-width: 400px){
-    .slotMachine{
-        width: 95%;
-    }
+    
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 1000px){
+    .slotMachine{
+        width: 95%;
+    }
    
     .player-info{
     
-        height: 10vh;
+        height: 12vh;
     }
     .player-space{
-        height: 7vh;
+        height: 9vh;
     }
     .reels{
         height: 15vh;
-        margin-top: 2rem;
+        margin-top: 8rem;
+        width: 95%;
     }
     .reel{
         height: 15vh;
     }
     .action{
-        height: 6rem;
+        height: 11rem;
+        width: 20%;
+        font-size: 2.4rem;
     }
     .input{
         margin: 0;
