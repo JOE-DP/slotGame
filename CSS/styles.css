@@ -1,6 +1,7 @@
 .slotMachine{
     width: 60%;
     background-color: rgb(136, 198, 219);
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
     border: 2px solid yellow;
     border-radius: 20%;
     height: 95vh;
@@ -8,7 +9,11 @@
     padding-top: 1vh;
 }
 header{
-    overflow: auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: flex-start;
     
 }
 h1, span{
@@ -20,14 +25,19 @@ h1, span{
 }
 h1{
     font-size: 6rem;
-    text-align: left;
-    margin-left: 15%;
-    float: left;
+    text-align: center;
+    flex-grow: 2;
+    margin: 6%;
+    padding-top: 0;
+   
 }
 input{
-    float: left;
+    
     border: 2px solid yellow;
-    margin: 10% 0 0 20%;
+    margin:  0 6%;
+    flex-grow: 2;
+    padding: 3%;
+   
     
 }
     /* player information */
@@ -42,6 +52,7 @@ input{
 
 span{
     font-size: 2rem;
+    margin-right: 2%;
     
 }
 .spins, .tokens{
@@ -91,39 +102,40 @@ p{
 .reel{
     border: 2px solid black;
     margin: 0 6%;
-    height: 35vh;
+    height: 20vh;
     float: left;
     width: 20%;
     background-color: white;
     border: 2px solid yellow;
 }
 .reel-content{
-    margin-top: 50%;
+    
     font-size: 7rem;
     font-family: 'Smokum', cursive;
 }
-@media only screen and  (orientation: portrait) and (max-width: 400px){
+/* @media only screen and  (orientation: portrait) and (max-width: 400px){
     
-}
+} */
 
 
-@media (max-width: 1000px){
+@media (max-width: 700px){
     .slotMachine{
         width: 95%;
-    }
-   
-    .player-info{
-    
-        height: 12vh;
-    }
-    .player-space{
-        height: 9vh;
     }
     .reels{
         height: 15vh;
         margin-top: 8rem;
         width: 95%;
     }
+   
+    /* .player-info{
+    
+        height: 12vh;
+    }
+    .player-space{
+        height: 9vh;
+    }
+   
     .reel{
         height: 15vh;
     }
@@ -135,5 +147,5 @@ p{
     .input{
         margin: 0;
         display: block;
-    }
-}
+    } */
+} 
